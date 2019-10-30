@@ -1,0 +1,71 @@
+\hypertarget{class_projectile}{}\doxysection{Projectile Class Reference}
+\label{class_projectile}\index{Projectile@{Projectile}}
+
+
+Base \mbox{\hyperlink{class_projectile}{Projectile}} class that could be used to shoot  
+
+
+Inheritance diagram for Projectile\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_projectile}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_projectile_a3e3cdf6fcfd15893d63623affc270ded}\label{class_projectile_a3e3cdf6fcfd15893d63623affc270ded}} 
+void {\bfseries Initialize} (Game\+Object owner, Vector2 direction, Vector2 initial\+Velocity)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_projectile_a47bc6ec84a596d94fb35e28cd0648fb2}\label{class_projectile_a47bc6ec84a596d94fb35e28cd0648fb2}} 
+Layer\+Mask {\bfseries collision\+Mask}
+\item 
+\mbox{\Hypertarget{class_projectile_a08b05673dcd2da844c04ad812f04b3aa}\label{class_projectile_a08b05673dcd2da844c04ad812f04b3aa}} 
+float {\bfseries speed}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_projectile_a624c604c99612d5f770e7933398926e9}\label{class_projectile_a624c604c99612d5f770e7933398926e9}} 
+virtual void {\bfseries On\+Initialized} ()
+\item 
+\mbox{\Hypertarget{class_projectile_a107df718306594b9e793879cafcc1072}\label{class_projectile_a107df718306594b9e793879cafcc1072}} 
+virtual void {\bfseries On\+Trigger\+Enter2D} (Collider2D other)
+\item 
+\mbox{\Hypertarget{class_projectile_aed16cdf72286c332c5cee2933706ca97}\label{class_projectile_aed16cdf72286c332c5cee2933706ca97}} 
+virtual void {\bfseries On\+Not\+Collide\+With} (Collider2D other)
+\item 
+\mbox{\Hypertarget{class_projectile_a0f7dd0259be773db60a3cd6fca06e8bd}\label{class_projectile_a0f7dd0259be773db60a3cd6fca06e8bd}} 
+virtual void {\bfseries On\+Collide\+Owner} ()
+\item 
+\mbox{\Hypertarget{class_projectile_adafb479f251df04ac62f3806d542780b}\label{class_projectile_adafb479f251df04ac62f3806d542780b}} 
+virtual void {\bfseries On\+Collide\+Take\+Damage} (Collider2D other, \mbox{\hyperlink{interface_i_take_damage}{I\+Take\+Damage}} take\+Damage)
+\item 
+\mbox{\Hypertarget{class_projectile_ad7deb35a74b4a3ee934d554b419d63af}\label{class_projectile_ad7deb35a74b4a3ee934d554b419d63af}} 
+virtual void {\bfseries On\+Collide\+Other} (Collider2D other)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_projectile_ac081071adb2faaf06096a2f9f794cecd}\label{class_projectile_ac081071adb2faaf06096a2f9f794cecd}} 
+Game\+Object {\bfseries owner}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_projectile_a8f06c49dd68f8877c89c93ead14f414f}\label{class_projectile_a8f06c49dd68f8877c89c93ead14f414f}} 
+Vector2 {\bfseries direction}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_projectile_a1639612d9d1ee8b4b1f145af17661991}\label{class_projectile_a1639612d9d1ee8b4b1f145af17661991}} 
+Vector2 {\bfseries initial\+Velocity}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base \mbox{\hyperlink{class_projectile}{Projectile}} class that could be used to shoot 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Player/Projectile.\+cs\end{DoxyCompactItemize}

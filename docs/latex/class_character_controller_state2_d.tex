@@ -1,0 +1,62 @@
+\hypertarget{class_character_controller_state2_d}{}\doxysection{Character\+Controller\+State2D Class Reference}
+\label{class_character_controller_state2_d}\index{CharacterControllerState2D@{CharacterControllerState2D}}
+
+
+Helper class for the player\textquotesingle{}s physics  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_ab033c6321d9603d5255b0f496b642514}\label{class_character_controller_state2_d_ab033c6321d9603d5255b0f496b642514}} 
+void {\bfseries Reset} ()
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a64de274d33e063c6936995f6bc137f39}\label{class_character_controller_state2_d_a64de274d33e063c6936995f6bc137f39}} 
+override string {\bfseries To\+String} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a40ded86e3d28aa12d50003ece1cd308a}\label{class_character_controller_state2_d_a40ded86e3d28aa12d50003ece1cd308a}} 
+bool {\bfseries is\+Grounded} =$>$ is\+Colliding\+Below
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a8c27efb0ec21610d07853e36a58670ca}\label{class_character_controller_state2_d_a8c27efb0ec21610d07853e36a58670ca}} 
+bool {\bfseries is\+Hanging\+On\+Wall} =$>$ !is\+Grounded \&\& (is\+Colliding\+Left $\vert$$\vert$ is\+Colliding\+Right)
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a86bfc06b633f427a45db04f297bd170a}\label{class_character_controller_state2_d_a86bfc06b633f427a45db04f297bd170a}} 
+bool {\bfseries has\+Collisions} =$>$ is\+Colliding\+Right $\vert$$\vert$ is\+Colliding\+Left $\vert$$\vert$ is\+Colliding\+Above $\vert$$\vert$ is\+Colliding\+Below
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a692ae179c2d625f4f82743a37d1ca4d6}\label{class_character_controller_state2_d_a692ae179c2d625f4f82743a37d1ca4d6}} 
+bool {\bfseries is\+Colliding\+Right}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a6d25c16c1bbdef58de81f293e168e9c9}\label{class_character_controller_state2_d_a6d25c16c1bbdef58de81f293e168e9c9}} 
+bool {\bfseries is\+Colliding\+Left}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a12cc66dd5f8367d933a20ccaac1f43c9}\label{class_character_controller_state2_d_a12cc66dd5f8367d933a20ccaac1f43c9}} 
+bool {\bfseries is\+Colliding\+Above}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a24052aff6c7784ac239644a1da4695e8}\label{class_character_controller_state2_d_a24052aff6c7784ac239644a1da4695e8}} 
+bool {\bfseries is\+Colliding\+Below}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a06388b12432470bbe1c6025ef3e37ccc}\label{class_character_controller_state2_d_a06388b12432470bbe1c6025ef3e37ccc}} 
+bool {\bfseries is\+Moving\+Down\+Slope}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a8abb28a8abc3fa7952bf85f7af90d619}\label{class_character_controller_state2_d_a8abb28a8abc3fa7952bf85f7af90d619}} 
+bool {\bfseries is\+Moving\+Up\+Slope}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_character_controller_state2_d_a25d1dd78cbed6cb1869528cab2ec083d}\label{class_character_controller_state2_d_a25d1dd78cbed6cb1869528cab2ec083d}} 
+float {\bfseries slope\+Angle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Helper class for the player\textquotesingle{}s physics 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Player/Character\+Controller\+State2\+D.\+cs\end{DoxyCompactItemize}

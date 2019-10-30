@@ -1,0 +1,124 @@
+\hypertarget{class_player_controller}{}\doxysection{Player\+Controller Class Reference}
+\label{class_player_controller}\index{PlayerController@{PlayerController}}
+
+
+Player script controls the player, including health, speed, sound, etc. ~\newline
+  
+
+
+Inheritance diagram for Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_controller_a74d9f736f7d59c8af6daeff18ce5c904}\label{class_player_controller_a74d9f736f7d59c8af6daeff18ce5c904}} 
+void {\bfseries Take\+Damage} (int damage, Game\+Object instigator)
+\item 
+\mbox{\Hypertarget{class_player_controller_a050967f0e5c2340cb21861e4c8c788a1}\label{class_player_controller_a050967f0e5c2340cb21861e4c8c788a1}} 
+void {\bfseries Awake} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a09dfaa02002d8d5d8561ff3f9704aa08}\label{class_player_controller_a09dfaa02002d8d5d8561ff3f9704aa08}} 
+void {\bfseries Finish\+Level} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a1951a5a9cade0b01ac33e1e24a77a9d0}\label{class_player_controller_a1951a5a9cade0b01ac33e1e24a77a9d0}} 
+void {\bfseries Kill} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a61bd2a37b29d980410cf60d9e3081377}\label{class_player_controller_a61bd2a37b29d980410cf60d9e3081377}} 
+void {\bfseries Give\+Health} (int health\+To\+Give, Game\+Object instigator)
+\item 
+\mbox{\Hypertarget{class_player_controller_a1005dcd7b2e88f6a67a711e8f44c8dd7}\label{class_player_controller_a1005dcd7b2e88f6a67a711e8f44c8dd7}} 
+void {\bfseries Respawn\+At} (Transform spawn\+Point)
+\item 
+\mbox{\Hypertarget{class_player_controller_a5ebfe098b2dc258ca8349e6951766883}\label{class_player_controller_a5ebfe098b2dc258ca8349e6951766883}} 
+void {\bfseries Handle\+Input} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a1e45a52b6fb61ebeb33edec16963fc31}\label{class_player_controller_a1e45a52b6fb61ebeb33edec16963fc31}} 
+void {\bfseries Fire\+Projectile} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a022122dc7eaa2de9baeca539ecce2d37}\label{class_player_controller_a022122dc7eaa2de9baeca539ecce2d37}} 
+void {\bfseries Button\+Left\+Down} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_ac8c952e9e0e48675de238bfffae50b44}\label{class_player_controller_ac8c952e9e0e48675de238bfffae50b44}} 
+void {\bfseries Button\+Right\+Down} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a787ef1cc715a9fa7c8dd9ebdff80b442}\label{class_player_controller_a787ef1cc715a9fa7c8dd9ebdff80b442}} 
+void {\bfseries Button\+Left\+Up} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a500f2febaed8b4d7904abd6d5f1927f6}\label{class_player_controller_a500f2febaed8b4d7904abd6d5f1927f6}} 
+void {\bfseries Button\+Right\+Up} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a0ddb7de9ba04da2f12d0616d66d59280}\label{class_player_controller_a0ddb7de9ba04da2f12d0616d66d59280}} 
+void {\bfseries Button\+A\+Click} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_af99c9bfc12e0fd62a3b02f382147dd4e}\label{class_player_controller_af99c9bfc12e0fd62a3b02f382147dd4e}} 
+void {\bfseries Button\+B\+Up} ()
+\item 
+\mbox{\Hypertarget{class_player_controller_a8b2ccfed1078f9591d2e529fa23fca44}\label{class_player_controller_a8b2ccfed1078f9591d2e529fa23fca44}} 
+void {\bfseries Button\+B\+Down} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_controller_af24a8820ce6558138208255b27d948d3}\label{class_player_controller_af24a8820ce6558138208255b27d948d3}} 
+Animator {\bfseries animator}
+\item 
+\mbox{\Hypertarget{class_player_controller_a2f397e810ba3ca413333c69b0ee2b1d6}\label{class_player_controller_a2f397e810ba3ca413333c69b0ee2b1d6}} 
+Game\+Object {\bfseries fire\+Projectile\+Effect}
+\item 
+\mbox{\Hypertarget{class_player_controller_aec1e8f25c69ea198fe38f965307437a4}\label{class_player_controller_aec1e8f25c69ea198fe38f965307437a4}} 
+float {\bfseries fire\+Rate}
+\item 
+\mbox{\Hypertarget{class_player_controller_a09eec8cb50478312150772a17664de13}\label{class_player_controller_a09eec8cb50478312150772a17664de13}} 
+int {\bfseries max\+Health} = 100
+\item 
+\mbox{\Hypertarget{class_player_controller_aff8eb92a976293c031846b039d90913f}\label{class_player_controller_aff8eb92a976293c031846b039d90913f}} 
+float {\bfseries max\+Speed} = 8f
+\item 
+\mbox{\Hypertarget{class_player_controller_a3d6b748cc07e8ef94999de2d00d26091}\label{class_player_controller_a3d6b748cc07e8ef94999de2d00d26091}} 
+Game\+Object {\bfseries ouch\+Effect}
+\item 
+\mbox{\Hypertarget{class_player_controller_ad055db42f622ba64a86731495e40a686}\label{class_player_controller_ad055db42f622ba64a86731495e40a686}} 
+Audio\+Clip {\bfseries player\+Health\+Sound}
+\item 
+\mbox{\Hypertarget{class_player_controller_a4aac4005f9f02d3a09ef54e7aee8b683}\label{class_player_controller_a4aac4005f9f02d3a09ef54e7aee8b683}} 
+Audio\+Clip {\bfseries player\+Hit\+Sound}
+\item 
+\mbox{\Hypertarget{class_player_controller_a46954430e557c5480feda8fb24fdb8a1}\label{class_player_controller_a46954430e557c5480feda8fb24fdb8a1}} 
+Audio\+Clip {\bfseries player\+Shoot\+Sound}
+\item 
+\mbox{\Hypertarget{class_player_controller_ad5980e34d994e6e4faabd8b64d744b53}\label{class_player_controller_ad5980e34d994e6e4faabd8b64d744b53}} 
+\mbox{\hyperlink{class_projectile}{Projectile}} {\bfseries projectile}
+\item 
+\mbox{\Hypertarget{class_player_controller_a8ea51911ea98985dbcfcca9ac1ddfd01}\label{class_player_controller_a8ea51911ea98985dbcfcca9ac1ddfd01}} 
+Transform {\bfseries projectile\+Fire\+Location}
+\item 
+\mbox{\Hypertarget{class_player_controller_ad0a332128ba6074912584f7dc0dd94ce}\label{class_player_controller_ad0a332128ba6074912584f7dc0dd94ce}} 
+float {\bfseries speed\+Acceleration\+In\+Air} = 5f
+\item 
+\mbox{\Hypertarget{class_player_controller_adf092d3aef2f109b19e1b48feb1fb371}\label{class_player_controller_adf092d3aef2f109b19e1b48feb1fb371}} 
+float {\bfseries speed\+Acceleration\+On\+Ground} = 10f
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_controller_a7816d8bf32a9641bd6be9dcd3fcb188a}\label{class_player_controller_a7816d8bf32a9641bd6be9dcd3fcb188a}} 
+int {\bfseries health}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_player_controller_aa8624d93d822025f613c51ca08595549}\label{class_player_controller_aa8624d93d822025f613c51ca08595549}} 
+bool {\bfseries is\+Dead}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Player script controls the player, including health, speed, sound, etc. ~\newline
+ 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Player/Player\+Controller.\+cs\end{DoxyCompactItemize}
